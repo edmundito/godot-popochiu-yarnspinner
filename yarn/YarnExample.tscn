@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://4utrxrtn0oea"]
+
+[ext_resource type="PackedScene" uid="uid://bv42g323prh5f" path="res://addons/YarnSpinner-Godot/Scenes/DefaultDialogueSystem.tscn" id="1_pr4bs"]
+[ext_resource type="Resource" uid="uid://b0u7qi1r4pmqm" path="res://yarn/Popochiu.yarnproject" id="2_lm56h"]
+
+[node name="YarnSpinnerCanvasLayer" instance=ExtResource("1_pr4bs")]
+
+[node name="DialogueRunner" parent="." index="0"]
+yarnProject = ExtResource("2_lm56h")
+startNode = "Start"
+startAutomatically = true

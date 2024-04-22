@@ -1,0 +1,9 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://cklhdry6x58i7"]
+
+[ext_resource type="Script" path="res://game/characters/ego/character_ego_state.gd" id="1_561q2"]
+
+[resource]
+resource_name = "Ego"
+script = ExtResource("1_561q2")
+script_name = "Ego"
+scene = "res://game/characters/ego/character_ego.tscn"

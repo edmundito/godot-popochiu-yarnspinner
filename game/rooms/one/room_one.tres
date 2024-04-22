@@ -1,0 +1,12 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://clag7q6fx8m2p"]
+
+[ext_resource type="Script" path="res://game/rooms/one/room_one_state.gd" id="1_6x5n3"]
+
+[resource]
+resource_name = "One"
+script = ExtResource("1_6x5n3")
+script_name = "One"
+scene = "res://game/rooms/one/room_one.tscn"
+visited = false
+visited_first_time = false
+visited_times = 0
