@@ -9,3 +9,27 @@
 yarnProject = ExtResource("2_lm56h")
 startNode = "Start"
 startAutomatically = true
+
+[node name="LineText" parent="LineView/ViewControl" index="0"]
+offset_left = -506.0
+offset_top = -247.0
+offset_right = 556.0
+offset_bottom = 298.0
+
+[node name="CharacterNameText" parent="LineView/ViewControl" index="1"]
+offset_left = -498.0
+offset_top = -322.0
+offset_right = 388.0
+offset_bottom = -269.0
+
+[node name="ColorRect" parent="LineView/ViewControl/CharacterNameText" index="1"]
+metadata/_edit_lock_ = true
+
+[node name="ContinueButton" parent="LineView/ViewControl" index="2"]
+offset_left = 252.0
+offset_top = -356.0
+offset_right = 484.0
+offset_bottom = -256.0
+
+[node name="OptionsListView" parent="." index="3"]
+visible = false
